@@ -1,0 +1,22 @@
+/*
+ * core color palette
+*/
+
+:root {
+    --bg:            #543743; 
+    --surface:       #6e4b56; 
+    --surface-alt:   #51515d; 
+    --field:         #65444f; 
+    --border:        #65444f; 
+
+    --fg:            #cfd6df; 
+    --fg-muted:      #8c98a6; 
+    --fg-warm:       #e2d5cd;
+
+    --accent:        #78a2b3;
+    --accent-hover:  #67bed9; 
+    --warm:          #ae9e7a; 
+
+    --success:       #92ae64; 
+    --urgent:        #c25c5c;
+}

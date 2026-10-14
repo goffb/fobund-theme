@@ -1,0 +1,19 @@
+# fobund theme for xfce4-terminal
+# author: goffb 
+# repo: https://github.com/goffb/fobund-theme 
+
+[Scheme]
+Name=Fobund
+
+ColorForeground=#cfd6df
+ColorBackground=#543743
+
+ColorCursor=#78a2b3
+ColorCursorForeground=#543743
+
+ColorSelection=#e2d5cd
+ColorSelectionBackground=#6e4b56
+
+TabActivityColor=#ae9e7a
+
+ColorPalette=#543743;#c25c5c;#92ae64;#ae9e7a;#78a2b3;#ae9e7a;#67bed9;#cfd6df;#51515d;#c25c5c;#92ae64;#e2d5cd;#67bed9;#ae9e7a;#67bed9;#e2d5cd

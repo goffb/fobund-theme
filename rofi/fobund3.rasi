@@ -1,0 +1,139 @@
+/* fobund theme for rofi  */
+/* author: goffb */
+/* repo: https://github.com/goffb/fobund-theme */
+
+configuration {
+    show-icons: true;
+}
+
+* {
+    surface:      #6e4b56;
+    bg:           #543743;
+    fg:           #cfd6df;
+    fg-muted:     #8c98a6;
+    fg-warm:      #e2d5cd;
+    field:        #65444f;
+    accent:       #78a2b3;
+    accent-hover: #67bed9;
+    urgent:       #c25c5c;
+    warm:         #ae9e7a;
+    surface-alt:  #51515d;
+    success:      #92ae64;
+
+    radius: 8px;
+
+    background-color: transparent;
+    text-color: @fg;
+
+    margin:  0;
+    padding: 0;
+    spacing: 0;
+}
+
+element-icon,
+element-text,
+scrollbar {
+    cursor: pointer;
+}
+
+window {
+    location: center;
+    width:    490px;
+    x-offset: 8px;
+    y-offset: 40px;
+
+    background-color: @bg;
+
+    border:        1px;
+    border-color:  @field;
+    border-radius: @radius;
+}
+
+inputbar {
+    spacing:  8px;
+    padding:  6px 10px;
+    children: [ icon-search, entry ];
+
+    background-color: @surface;
+}
+
+icon-search,
+entry,
+element-icon,
+element-text {
+    vertical-align: 0.5;
+}
+
+icon-search {
+    expand:     false;
+    filename:   "search-symbolic";
+    size:       14px;
+    text-color: @fg-muted;
+}
+
+entry {
+    text-color: @fg;
+}
+
+textbox {
+    padding:          4px 8px;
+    background-color: @bg;
+}
+
+listview {
+    padding:          4px 0px;
+    lines:            7;
+    columns:          3;
+    scrollbar:        false;
+    fixed-height:     true;
+    dynamic:          false;
+    background-color: @bg;
+}
+
+element {
+    padding: 6px 10px;
+    spacing: 8px;
+}
+
+element normal urgent {
+    text-color: @urgent;
+}
+
+element normal active,
+element alternate active {
+    text-color: @accent;
+}
+
+element selected {
+    background-color: @surface;
+    text-color:       @fg-warm;
+}
+
+element selected urgent {
+    background-color: @urgent;
+    text-color:       @bg;
+}
+
+element-icon {
+    size: 0.8em;
+}
+
+element-text {
+    text-color: inherit;
+}
+
+scrollbar {
+    handle-width: 4px;
+    handle-color: @fg-muted;
+    padding:      0 4px;
+}
+
+message {
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+error-message {
+    background-color: @urgent;
+    text-color:       @fg;
+}
