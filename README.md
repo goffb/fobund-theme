@@ -2,12 +2,17 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-ts-w.png">
     <source media="(prefers-color-scheme: light)" srcset="assets/logo-ts-b.png">
-    <img src="assets/logo-ts-b.png" alt="fobund theme" width="120">
+    <img src="assets/logo-ts-b.png" alt="fobund theme" width="140">
   </picture>
   
   *a theme for linux. available for rofi, kitty, btop, and xfce4-terminal* 
 
-  [license](LICENSE)
+  <p align="center">
+    <a href="LICENSE" target="_blank">
+      <img src="assets/license.svg" alt="License" width="88" height="31">
+    </a>
+    <img src="assets/gnu-lnx.svg" alt="License" width="88" height="31">
+  </p>
 
 </div>
 
