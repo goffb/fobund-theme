@@ -22,6 +22,6 @@
       <rect x="14" y="5" width="2" height="1" fill="#f0f0f0"/>
       <rect x="15" y="14" width="4" height="4" fill="#909090" opacity="0.5"/>
     
-  <text x="32" y="16" fill="#202020" font-family="monospace" font-size="9" font-weight="900" letter-spacing="-0.3" style="text-transform: none;">GNU/LNX</text>
-  <text x="32" y="25" fill="#505050" font-family="monospace" font-size="5" letter-spacing="-0.15" style="text-transform: none;">*COLOR THEME*</text>
+  <text x="32" y="16" fill="#202020" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="900" letter-spacing="-0.3" style="text-transform: none;">GNU/LNX</text>
+  <text x="32" y="25" fill="#505050" font-family="Arial, Helvetica, sans-serif" font-size="5" letter-spacing="-0.15" style="text-transform: none;">*COLOR THEME*</text>
 </svg>
