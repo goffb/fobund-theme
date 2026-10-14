@@ -5,7 +5,7 @@
     <img src="assets/logo-ts-b.png" alt="fobund theme" width="140">
   </picture>
   
-  *a theme for linux. available for rofi, kitty, btop, and xfce4-terminal* 
+  *a theme for linux. available for rofi, kitty, btop and xfce4-terminal* 
 
   <p align="center">
     <a href="LICENSE" target="_blank"><img src="assets/license.svg" alt="License" width="88" height="31"></a>&nbsp;&nbsp;<img src="assets/gnu-lnx.svg" alt="GNU/LNX" width="88" height="31">
