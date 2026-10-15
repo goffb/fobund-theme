@@ -8,7 +8,7 @@
   *a theme for linux. available for rofi, kitty, btop and xfce4-terminal* 
 
   <p align="center">
-    <a href="LICENSE" target="_blank"><img src="assets/license.svg" alt="License" width="88" height="31"></a>&nbsp;&nbsp;<img src="assets/gnu-lnx.svg" alt="GNU/LNX" width="88" height="31">
+    <a href="LICENSE" target="_blank" rel="noopener noreferrer"><img src="assets/license.svg" alt="License" width="88" height="31"></a>&nbsp;&nbsp;<a href="https://goffb.github.io/fobund-theme/" target="_blank" rel="noopener noreferrer"><img src="assets/website.svg" alt="website" width="88" height="31"></a>&nbsp;&nbsp;<img src="assets/gnu-lnx.svg" alt="GNU/LNX" width="88" height="31">
   </p>
 
 </div>
